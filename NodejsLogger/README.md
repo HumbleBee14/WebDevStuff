@@ -1,6 +1,6 @@
 # Node Logging with winston
 
-This tutorial demonstrates how to use the [winston logging library](https://github.com/winstonjs/winston) to create custom loggers in your Node.js application.
+Practice to learn how to use the winston logging library in Node [winston logging library](https://github.com/winstonjs/winston) to create custom loggers in Node.js application.
 
 It also demonstrates how to customize transports and what you need to pay attention to when you **prepare your application for production use**.
 
