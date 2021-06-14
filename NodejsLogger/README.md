@@ -21,11 +21,14 @@ npm run dev
 ```
 
 Add this in package.json after confugring .config file
-// "scripts": {
+
+/*
+"scripts": {
     `"dev": "NODE_ENV=development nodemon index.js",`
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-//  
+*/  
+
 The `dev` script automatically sets the `NODE_ENV` environment variable to `development`.
 
 If the `NODE_ENV` environment variable is set to a different value than `development` (or not set at all), the production logger will be used.
