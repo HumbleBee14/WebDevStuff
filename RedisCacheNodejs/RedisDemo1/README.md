@@ -20,4 +20,12 @@ then check the results on Postman -
  Testing above APi using: GET request to : http://localhost:3000/jobs?search=node.js
 
  My results:
- 
+ Before: Initial new request took - 1192 ms
+ ![alt text](https://github.com/HumbleBee14/WebDevStuff/blob/main/RedisCacheNodejs/RedisDemo1/images/Before(first%20Request%20to%20server).png?raw=true)
+
+
+ After: new request took - 5 ms
+
+![alt text](https://github.com/HumbleBee14/WebDevStuff/blob/main/RedisCacheNodejs/RedisDemo1/images/After(with%20Redis).png?raw=true)
+
+Indeed it's worth it !!
