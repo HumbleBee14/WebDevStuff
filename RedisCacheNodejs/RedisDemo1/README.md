@@ -4,7 +4,7 @@ wget https://download.redis.io/releases/redis-6.0.9.tar.gz      \
 tar xzf redis-6.0.9.tar.gz          \
 cd redis-6.0.9              \
 make                   \
-make install                \
+make install             
 
 
 For Windows: Install from here and run redis-server
@@ -13,7 +13,7 @@ and set path
 
 and start the redis server using redis-server
 
-install dependices              \
+install dependices      
 
 npm install --save  express redis axios
 
